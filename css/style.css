@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.505);
+}
+body{
+    height: 100vh;
+    font-family: "Encode Sans Expanded", sans-serif;
+    
+}
+main{
+    margin-left: 10vw;
+}
+
+nav{
+    position: fixed;
+    height: 100vh;
+    width: 41vh;
+}
+.logo{
+    color: rgba(255, 255, 255, 0.711);
+    padding: 10px 20px 20px 20px ;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.684);
+
+}
+i{
+    padding-right: 12px;
+
+}
+nav ul li a{
+    display: block;
+    padding-inline: 20px;
+    font-size: 15px;
+ 
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.pimg{
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    
+}
+.v-line{
+    position: absolute;
+    left: 220px;
+    top: 0%;
+    width: 1px;
+    height: 100vh;
+    background-color: rgba(250, 235, 215, 0.323);
+}
+.and-items{
+    margin-top: 40vh;
+}
+header{
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  
+}
+.imgprofile{
+    border-radius: 100%;
+    max-width: 140px;
+
+}
+.informationall{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding-top: 3%;
+    padding-left: 7%;
+    flex-direction: column;
+}
+.call{
+    width: 37%;
+    display: flex;
+}
+.infoedit{
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+    font-size: 15px;
+}
+.line2{
+    background-color: rgba(240, 248, 255, 0.572);
+    width: 45.8vw;
+    height: 1px;
+    margin-top: 30px;
+}
+.line3{
+    background-color: rgba(240, 248, 255, 0.748);
+    width: 9.9%;
+    height: 2px;
+    margin-left: 170px;
+}
+.new{
+    background-color: rgba(250, 235, 215, 0.379);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cnew{
+    margin-left: 5%;
+}
+.new div{
+    background-color: rgba(252, 245, 245, 0.367);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 50px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.56);
+}
+.new-and-line{
+    display: flex;
+    width: 50%;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 150px;
+}
+.newp{
+    padding-left: 5px;
+}
+.conall{
+    display: flex;
+    justify-content: center;
+}
+.conall{
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+.P-S-T{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    width: 320px;
+    margin-left: 170px;
+    font-size: 12px;
+}
+.callery{
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(255, 255, 255); */
+}
+.callery ul {
+    /* background-color: aqua; */
+    list-style: none;
+    display: flex;
+    width: 705px;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 1.5vw;
+}
+.callery ul img{
+    max-width: 231px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    padding-right: 8vw;
+}
+.footerlinks{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 63vw;
+    margin-top: 30px;
+    padding-left: 200px;
+    font-size: 12px;
+}
+.Language{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+    padding-left: 150px;
+}
+.edit{
+    background-color: rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+.view{
+    background-color: rgba(255, 255, 255, 0.125);
+    border-radius: 5px;
+    padding: 2px 12px;
+}
+.likess1{
+    position: absolute;
+    top: 65%;
+    left: 39%;
+    mix-blend-mode:screen;
+    font-size: 25px;
+    color: rgb(254, 0, 0);
+}
+.likess2{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    mix-blend-mode:screen;
+    font-size: 25px;
+    color: rgb(254, 0, 0);
+}
+.likess3{
+    position: absolute;
+    top: 65%;
+    left: 70.5%;
+    mix-blend-mode:screen;
+    font-size: 25px;
+    color: rgb(254, 0, 0);
+}
+.likess4{
+    position: absolute;
+    top: 100%;
+    left: 39%;
+    mix-blend-mode:screen;
+    font-size: 25px;
+    color: rgb(254, 0, 0);
+}
+.tolike{
+    visibility: hidden;
+}
